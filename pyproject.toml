@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mistral-7b-lora-example"
+version = "0.1.0"
+description = "A simple example illustrating how to fine-tune Mistal7b via LORA"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mistral_7b_lora_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^23.12.1"
+peft = "^0.7.1"
+datasets = "^2.16.1"
+trl = "^0.7.7"
+bitsandbytes = "^0.41.3.post2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
