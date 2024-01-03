@@ -4,6 +4,10 @@ A straightforward example illustrating how to fine-tune Mistal 7b with [QLoRA](h
 
 Derived from [this blogpost](https://blog.neuralwork.ai/an-llm-fine-tuning-cookbook-with-mistral-7b/).
 
-*Work In Progress*.
+<ins>*Work In Progress*</ins>.
 
 Uses huggingface, trl, peft (via huggingface), bitsandbytes and pytorch (obviously).
+
+Install environment using `poetry` then run `poetry run python train.py` to SFT.
+
+**Note**: Requires (Nvidia) GPUs to run.
